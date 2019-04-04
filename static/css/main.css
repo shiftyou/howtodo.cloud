@@ -1,11 +1,9 @@
-@font-face { font-family: 'NanumBarunGothic';
-src: url('/fonts/NanumBarunGothic.eot');
-}
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 body {
-  font-family: "NanumBarunGothic", "Roboto Condensed", Arial, sans-serif;
+  font-family: "Nanum Gothic", "Roboto Condensed", Arial, sans-serif;
   background: url("/static/img/subtle_dots.png");
-  line-height: 1.5em;
+/*  line-height: 1.5em; */
   font-weight: 300;
   font-size: 16px;
   color: #666;
