@@ -27,9 +27,9 @@ collections:
 #    - icon: fa-github
 #      link: "https://github.com/shiftyou"
 
-share:
-  twitter_username: github.io
-  fb_appid: 1749788565247320
+#share:
+#  twitter_username: github.io
+#  fb_appid: 1749788565247320
 
 urls:
     - text: About Me
