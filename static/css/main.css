@@ -3,7 +3,7 @@
 body {
   font-family: "Nanum Gothic", "Roboto Condensed", Arial, sans-serif;
   background: url("/static/img/subtle_dots.png");
-/*  line-height: 1.5em; */
+  line-height: 1.5em; 
   font-weight: 300;
   font-size: 16px;
   color: #666;
@@ -174,4 +174,8 @@ div.col-sm-3 img.profile-avatar {
   div.col-sm-3 {
     margin-top: 30px;
   }
+}
+
+.posts li i {
+  font-size: 12px;
 }
