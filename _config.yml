@@ -37,7 +37,7 @@ urls:
     - text: My Projects
       url: /projects/
 
-url: "https://howtodo.cloud"
+url: "https://www.howtodo.cloud"
 baseurl: ""
 paginate: 20
 per_page: 20
