@@ -153,7 +153,7 @@ layout: compress
               {% if c_slug == page.categories %}
                 <li>{{ c_slug }} {{ category | last | size }}</li>
               {% else %}
-                <li><a class="about" href="/category/{{ c_slug }}">{{ c_slug }} {{ category | last | size }}</a></li>
+                <li><a class="about" href="/category/{{ c_slug }}">{{ c_slug }} - {{ category | last | size }}</a></li>
               {% endif %}
             {% endfor %}
           {% endfor %}
