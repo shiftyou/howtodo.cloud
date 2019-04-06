@@ -192,7 +192,11 @@ div.col-sm-3 img.profile-avatar {
   font-size: 12px;
 }
 
-div.post{
+div.post {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+h1.post-title {
+  font-weight: bold;
 }
