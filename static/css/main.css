@@ -52,7 +52,6 @@ a:hover {
 /* Layout */
 .main-layout {
   background: #fff;
-  float: right;
 }
 .sidebar-nav {
   margin: 0;
@@ -97,9 +96,6 @@ footer {
 }
 
 /* Left column */
-.col-sm-3 {
-  float: left;
-}
 div.col-sm-3 {
   margin-top: 10px;
   font-size: 13px;
