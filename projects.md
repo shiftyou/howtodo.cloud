@@ -4,4 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+작은 프로젝트를 담고 있습니다.
+
+아직 시작 전..

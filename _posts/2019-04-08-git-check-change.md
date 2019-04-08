@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "GIT 변경사항 확인하기"
+categories: [git]
+tags: [git]
+---
+
+# GIT 변경사항 확인하기
+
+Commit 전, 
+- 어떤 파일의 어떤 부분을 변경하였는가를 살펴볼 때
+
+    ~~~git
+    git diff
+    ~~~
+
+    출력은 다음과 같이 나온다.
+    ~~~git
+    diff --git a/_config.yml b/_config.yml
+    index 7ec9f98..73db13e 100644
+    --- a/_config.yml
+    +++ b/_config.yml
+    @@ -32,10 +32,12 @@ collections:
+    #  fb_appid: 1749788565247320
+
+    urls:
+    -    - text: About Me
+    +    - text: About
+        url: /about/
+    -    - text: My Projects
+    +    - text: Projects
+        url: /projects/
+    +    - text: Todo
+    +      url: /todo/
+
+    url: "https://www.howtodo.cloud"
+    baseurl: ""
+    ~~~
+
+- 변경된 파일명만 살펴볼 때
+
+    ~~~git
+    git diff --name-only
+    ~~~
+
+    출력은 다음과 같이 나온다.
+    ~~~git
+    _config.yml
+    _data/projects.json
+    about.md
+    projects.md
+    ~~~
