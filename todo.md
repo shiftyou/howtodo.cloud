@@ -8,6 +8,7 @@ permalink: /todo/
 
 - 내가 바꾼 파일이 어떤것이 있는지 리스트 보여주기
 
+<hr>
 
 <div class="disqus-comments">
   <div id="disqus_thread"></div>

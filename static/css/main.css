@@ -216,3 +216,8 @@ div.post {
 h1.post-title {
   font-weight: bold;
 }
+
+.disqus-comments {
+  margin-left: 10%;
+  margin-right: 10%;
+}
