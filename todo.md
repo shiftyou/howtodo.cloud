@@ -4,9 +4,19 @@ title: Todo
 permalink: /todo/
 ---
 
-## git
+# Todo List
 
-- 내가 바꾼 파일이 어떤것이 있는지 리스트 보여주기
+
+### Kubernetes
+
+- Node.js 애플리케이션과 MySQL 연동하기
+- Tomcat 애플리케이션과 MySQL 연동하기
+
+### Docker
+
+
+### Git
+
 
 <hr>
 
