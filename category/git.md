@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
 categories: git
-title: Git
+title: GIT
 permalink: /category/git
 ---

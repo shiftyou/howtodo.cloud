@@ -8,6 +8,9 @@ disqus_shortname: howtodo-cloud
 #google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/logo200c.png
 
+category_dir: category/
+tag_dir: tag/
+
 enableTags: true
 tagarray: []
 

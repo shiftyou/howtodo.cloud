@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
 categories: docker
-title: Docker
+title: DOCKER
 permalink: /category/docker
 ---

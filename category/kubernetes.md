@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
 categories: kubernetes
-title: Kubernetes
+title: KUBERNETES
 permalink: /category/kubernetes
 ---
