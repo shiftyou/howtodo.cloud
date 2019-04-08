@@ -7,7 +7,7 @@ layout: compress
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="/static/img/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.author }}{% endif %}</title>
     <meta name="author" content="{{ site.author }}" />
     <meta name="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}" />
@@ -117,7 +117,11 @@ layout: compress
       <div class="col-sm-8 col-offset-1 main-layout">
         {{ content }}
         <footer>
-          &copy; {{ site.author }}
+          &copy; <a href="{{ site.author_url }}">{{ site.author }}</a>
+          - 
+          Powered by <a href="https://jekyllrb.com/">Jekyll</a>, 
+          themed from <a href="https://github.com/agusmakmun/agusmakmun.github.io">Agus Makmun</a>.
+
 <!--
           {% if site.github %}
             - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Jekyll.
@@ -167,9 +171,9 @@ layout: compress
             {% capture category_slug %}{{ category | first }}{% endcapture %}
             {% for c_slug in category_slug %}
               {% if c_slug == page.categories %}
-                <li>{{ c_slug }} {{ category | last | size }}</li>
+                <li>{{ c_slug }} <span class="small_categories"> ({{ category | last | size }})</span></li>
               {% else %}
-                <li><a class="about" href="/category/{{ c_slug }}">{{ c_slug }} - {{ category | last | size }}</a></li>
+                <li><a class="about" href="/category/{{ c_slug }}">{{ c_slug }} <span class="small_categories"> ({{ category | last | size }})</span></a></li>
               {% endif %}
             {% endfor %}
           {% endfor %}
