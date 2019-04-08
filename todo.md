@@ -16,12 +16,15 @@ permalink: /todo/
 
 ### Docker
 
+- ...
 
 ### Git
 
+- ...
 
 ### OCI (Oracle Cloud Infrastructure)
 
+- ...
 
 <hr>
 
