@@ -1,0 +1,10 @@
+[
+	{
+		"slug": "container-hol",
+		"name": "컨테이너 핸즈온",
+		"image": "docker-logo.png",
+		"url": "https://jonggyoukim.github.io/container/",
+		"date": "2019/03",
+		"tags": ["docker"]
+	}
+]

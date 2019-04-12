@@ -38,7 +38,7 @@ span.tags:last-child {
 .project-footer .project-timeline {
   display: inline-block;
   position: relative;
-  float: right;
+  float: left;
   font-size: 13px;
   font-style: italic;
 }
@@ -46,8 +46,8 @@ span.tags:last-child {
   display: block;
 }
 .project-img {
-  width: 230px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   display: block;
   background-size: cover;
   background-repeat: no-repeat;
