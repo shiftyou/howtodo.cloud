@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "DBCS 리슨포트 변경 및 JCS 프로비저닝"
-categories: [oci]
-tags: [dbcs, jcs]
+categories: oci
+tags: dbcs jcs
 ---
 # DBCS 리슨포트 변경 및 JCS 프로비저닝
 

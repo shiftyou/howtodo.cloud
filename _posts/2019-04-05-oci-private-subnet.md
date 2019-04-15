@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "private subnet 에서 JCS/SOACS 프로비저닝"
-categories: [oci]
-tags: [private subnet]
+categories: oci
+tags: private subnet
 ---
 # private subnet 에서 JCS/SOACS 프로비저닝
 아래는 private subnet에 OCI Database를 이용하는 JCS 인스턴스를 만드는 과정입니다.

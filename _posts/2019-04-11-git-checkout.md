@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "GIT 변경사항 되돌리기"
-categories: [git]
-tags: [git]
+categories: git
+tags: git diff
 ---
 # git 수정전으로 되돌리기
 

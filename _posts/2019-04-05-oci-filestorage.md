@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "OCI의 File Storage를 Compute Instance에 연결하는 방법"
-categories: [oci]
-tags: [oci, storage]
+categories: oci
+tags: storage
 ---
 # OCI의 File Storage를 Instance에 연결하는 방법
 
