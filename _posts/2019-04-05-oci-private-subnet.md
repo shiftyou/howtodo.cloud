@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "private subnet 에서 JCS/SOACS 프로비저닝"
+title:  "private subnet 에서 JCS/SOACS 프로비저닝하기"
 categories: oci
 tags: private subnet
 ---

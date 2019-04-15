@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DBCS 리슨포트 변경 및 JCS 프로비저닝"
+title:  "DBCS 리슨포트 변경 및 JCS 프로비저닝 하기"
 categories: oci
 tags: dbcs jcs
 ---
