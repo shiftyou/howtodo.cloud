@@ -30,7 +30,9 @@ docker run -d store/oracle/coherence:12.2.1.3
 ~~~
 docker run -d -e COH_WKA=foo.oracle.com store/oracle/coherence:12.2.1.3
 ~~~~
-`foo.oracle.com` 주소가 클러스터를 찾는데 사용될 것이며 이는 DNS lookup
+`foo.oracle.com` 주소가 클러스터를 찾는데 사용될 것이며 이는 DNS lookup 으로 찾을 수 있는 항목이어야 한다.
+
+(작성 중..)
 
 <kbd>Reference
 - https://hub.docker.com/_/oracle-coherence-12c
