@@ -13,20 +13,7 @@ permalink: /todo/
 - Tomcat 애플리케이션과 MySQL 연동하기
 - 모니터링을 위한 ELK 설치
 - 프로메테우스 설정
-- Helm 설치 
-
-
-### Docker
-
-- ...
-
-### Git
-
-- ...
-
-### OCI (Oracle Cloud Infrastructure)
-
-- ...
+- ~helm~
 
 <hr>
 
