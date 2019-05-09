@@ -59,4 +59,4 @@ kubectl cluster-info
 ~~~
 
 ---
-참고 : https://medium.com/@vovaprivalov/setup-minikube-on-virtualbox-7cba363ca3bc
+>참고 : https://medium.com/@vovaprivalov/setup-minikube-on-virtualbox-7cba363ca3bc
