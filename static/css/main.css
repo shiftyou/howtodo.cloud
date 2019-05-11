@@ -1,7 +1,8 @@
-@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+﻿@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
 
 body {
-  font-family: "Nanum Gothic", "Roboto Condensed", Arial, sans-serif;
+  font-family: 'IBM Plex Sans', 'Nanum Gothic', 'Roboto Condensed', Arial, sans-serif;
   background: url("/static/img/subtle_dots.png");
   line-height: 1.5em; 
   font-weight: 300;
