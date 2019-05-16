@@ -7,4 +7,18 @@
 		"date": "2019/03",
 		"tags": ["docker"]
 	}
+	{
+		"slug": "docker-test",
+		"name": "Docker Test"
+		"image": "docker-logo.png",
+		"date": "2019/05",
+		"tags": ["docker"]
+	}
+	{
+		"slug": "kubernetes-test",
+		"name": "Kubernetes Test"
+		"image": "kubernetes-logo.png",
+		"date": "2019/05",
+		"tags": ["kubernetes"]
+	}
 ]
