@@ -207,7 +207,7 @@ latest: digest: sha256:11c85a6160abc32643071adf1443c4318df46dbed91ff3a28dade9b26
 
 등록이 완료되면 hub.docker.com 에서 이미지를 볼 수 있다.
 
-![](images/application1.png)
+![](https://shiftyou.github.io/cloudnative/images/application1.png)
 
 
 # Jenkins로 컨테이너 이미지 생성 및 레지스트리에 자동으로 등록
@@ -220,11 +220,11 @@ jenkins에서 docker.com 에 접속하기 위해서 username/password 를 저장
 
 1. Credentials 를 선택하고 gloval을 선택한다.
 
-    ![](images/application2.png)
+    ![](https://shiftyou.github.io/cloudnative/images/application2.png)
 
 1. 화면이 나오면 좌측의 Add Credentials 를 선택한다.
 
-    ![](images/application3.png)
+    ![](https://shiftyou.github.io/cloudnative/images/application3.png)
 
     - Username : docker.com 의 로그인 유저이름 입력
     - Password : docker.com 의 로그인 패스워드 입력
@@ -233,7 +233,7 @@ jenkins에서 docker.com 에 접속하기 위해서 username/password 를 저장
 
 1. 완료되면 다음과 같은 화면이 나온다.
 
-    ![](images/application4.png)
+    ![](https://shiftyou.github.io/cloudnative/images/application4.png)
 
 1. 같은 방법으로 github 에 접속하기 위한 Credential도 만든다.
     - Username : github.com 의 로그인 유저이름 입력
@@ -248,16 +248,16 @@ jenkins에서 docker.com 에 접속하기 위해서 username/password 를 저장
 
 1. Jenkins 홈에서 좌측의 New Item을 클릭한다.
 
-    ![](images/application5.png)
+    ![](https://shiftyou.github.io/cloudnative/images/application5.png)
 
 1. 이름에 "myapp"을 입력하고 "Pipeline"을 선택한 다음 OK를 누른다.
 
-    ![](images/application6.png)
+    ![](https://shiftyou.github.io/cloudnative/images/application6.png)
 
 
 1. 아래 Pipeline에 다음과 같이 설정한다.
 
-    ![](images/application9.png)
+    ![](https://shiftyou.github.io/cloudnative/images/application9.png)
     
 
     - Definition : Pipeline script from SCM
@@ -338,7 +338,7 @@ Jenkinsfile을 github에서 읽도록 pipeline에서 설정을 했기 때문에 
 
     좌측 메뉴의 Build Now 를 눌러 파이프라인을 실행한다.
 
-    ![](images/application10.png)
+    ![](https://shiftyou.github.io/cloudnative/images/application10.png)
 
     각 단계마다 걸린 시간과 성공여부가 나타나게 된다.
 
@@ -346,7 +346,7 @@ Jenkinsfile을 github에서 읽도록 pipeline에서 설정을 했기 때문에 
 
     docker hub 를 확인 해 보면 mysql-jenkins 이미지가 등록되어있음을 알 수 있다.
 
-    ![](images/application11.png)
+    ![](https://shiftyou.github.io/cloudnative/images/application11.png)
 
 
 # 쿠버네티스에 애플리케이션 배포

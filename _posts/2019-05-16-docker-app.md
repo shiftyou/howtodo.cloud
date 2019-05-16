@@ -15,7 +15,7 @@ Node.JS로 만들어진 사용자를 관리하는 애플리케이션을 작성�
 
     ~~~
     $ cd
-    $ git clone https://github.com/jonggyoukim/sample-app
+    $ git clone (https://github.com/jonggyoukim/sample-app
     ~~~
 
     sample-app 디렉토리로 이동을 합니다.
@@ -47,7 +47,7 @@ Node.JS로 만들어진 사용자를 관리하는 애플리케이션을 작성�
 1. 테스트 하기
 
     웹브라우저로 `http://localhost:8000/`을 접속해 봅니다.
-    ![](./images/docker-app1.PNG)
+    ![](https://shiftyou.github.io/cloudnative/images/docker-app1.PNG)
     표시되는 IP Address가 현재 VM의 IP Address를 나타내고 있습니다.
 
 1. 마치기
@@ -179,7 +179,7 @@ Node.JS로 만들어진 사용자를 관리하는 애플리케이션을 작성�
 1. 테스트 하기
 
     웹브라우저로 `http://129.213.116.199:8080/`을 접속해 봅니다.
-    ![](./images/application2.PNG)
+    ![](https://shiftyou.github.io/cloudnative/images/application2.PNG)
     이전에 애플리케이션으로 수행한 화면과 동일하지만, 표시되는 IP Address가 VM의 IP Address가 아닌 컨테이너의 IP Address를 나타내고 있습니다.
 
 1. 완료
