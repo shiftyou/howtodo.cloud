@@ -4,6 +4,11 @@ title:  "VirtualBox에서 minikube 실행하기"
 categories: kubernetes
 tags: kubernetes minikube virtualbox
 ---
+
+Reference
+- https://medium.com/@vovaprivalov/setup-minikube-on-virtualbox-7cba363ca3bc
+
+
 # VirtualBox 에서 minikube 실행하기
 
 윈도우, 리눅스, 맥에서 원래 minikube는 Virtualbox를 사용한다.  
@@ -58,5 +63,3 @@ sudo -E minikube start --vm-driver=none
 kubectl cluster-info
 ~~~
 
----
->참고 : https://medium.com/@vovaprivalov/setup-minikube-on-virtualbox-7cba363ca3bc
