@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "VirtualBox에서 minikube 실행하기"
-categories: k8s
+categories: kubernetes
 tags: kubernetes minikube virtualbox
 ---
 # VirtualBox 에서 minikube 실행하기
