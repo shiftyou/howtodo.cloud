@@ -1,7 +1,6 @@
 ---
 layout: posts_by_category
-categories: cicd
-title: CI/CD
-permalink: /category/cicd
+title: cicd
+category: cicd
+robots: noindex
 ---
-Continous Integration / Continous Deployment

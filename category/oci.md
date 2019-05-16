@@ -1,7 +1,6 @@
 ---
 layout: posts_by_category
-categories: oci
-title: OCI (Oracle Cloud Infrastructure)
-permalink: /category/oci
+title: oci
+category: oci
+robots: noindex
 ---
-Oracle Cloud Infrastructure

@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: kubernetes
-title: KUBERNETES
-permalink: /category/kubernetes
+title: kubernetes
+category: kubernetes
+robots: noindex
 ---

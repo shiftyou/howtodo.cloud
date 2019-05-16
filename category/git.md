@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: git
-title: GIT
-permalink: /category/git
+title: git
+category: git
+robots: noindex
 ---
