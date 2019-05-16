@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Jenkins 이용하여 Docker Image 만들기"
-categories: ci/cd docker
-tags: ci/cd docker jenkins devops
+categories: cicd docker
+tags: cicd docker jenkins devops
 ---
 
 # Jenkins에서 Docker 이용
