@@ -89,7 +89,7 @@ div.content pre {
   padding: 10px;
   color: #FFF;
   overflow-x: auto;
-  font-family: "NanumBarunGothic", "Roboto Condensed", Arial, sans-serif;
+  font-family: 'IBM Plex Sans', 'Nanum Gothic', 'Roboto Condensed', Arial, sans-serif;
 /*
   font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
 */
@@ -192,7 +192,9 @@ div.col-sm-3 img.profile-avatar {
 /* Responsive Conditional */
 @media (min-width: 1024px) {
   .fixed-condition {
+/*
     position: fixed;
+*/
     max-width: 255px;
   }
   .container {
