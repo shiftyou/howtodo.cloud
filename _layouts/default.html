@@ -185,12 +185,12 @@ layout: compress
 <div class="blog-tags"> 
   {% assign tags = site.tags | sort %}
   {% for tag in tags %}
-  <a href="/tag/{{ tag[0] | slugify }}" class="btn btn-default" style="font-size: {{ tag | last | size  |  times: 8 | plus: 80  }}%">
+  <a href="/tag/{{ tag[0] | slugify }}" class="btn btn-info" style="font-size: {{ tag | last | size  |  times: 8 | plus: 80  }}%">
     <span aria-hidden="true"> 
-      {{ tag[0] }}
       <!--
-      {{ tag[0] }} <i class="badge">{{ tag | last | size }}</i>
+      {{ tag[0] }}
       -->
+      {{ tag[0] }} <i class="badge">{{ tag | last | size }}</i>
     </span>
   </a>
   {% endfor %}
