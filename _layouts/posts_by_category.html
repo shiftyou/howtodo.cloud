@@ -3,10 +3,6 @@ layout: default
 ---
 <header class="post-header">
   <h1 class="post-title">Articles by category: {{ page.category }}</h1>
-1.{{ page.categories }}
-2.{{ page.category }}
-3.{{ page.title }}
-
 <!--
   <h1 class="post-title">Articles by category: {{ page.title }}</h1>
 -->
@@ -17,7 +13,6 @@ layout: default
   {% for category in site.categories %}
     {% capture category_slug %}{{ category | first }}{% endcapture %}
     {% for c_slug in category_slug %}
-4.{{ c_slug }}
       {% if c_slug == page.category %}
         <button class="btn btn-sm btn-default active">{{ c_slug }}</button>
       {% else %}
