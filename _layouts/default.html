@@ -185,7 +185,7 @@ layout: compress
 <div class="blog-tags"> 
   {% assign tags = site.tags | sort %}
   {% for tag in tags %}
-  <a href="/tag/{{ tag[0] | slugify }}" class="btn btn-default" style="border: none; font-size: {{ tag | last | size  |  times: 8 | plus: 80  }}%">
+  <a href="/tag/{{ tag[0] | slugify }}" class="btn btn-default" style="border: none; font-size: {{ tag | last | size  |  times: 10 | plus: 100  }}%">
     <span aria-hidden="true"> 
       {{ tag[0] }}
       <!--
