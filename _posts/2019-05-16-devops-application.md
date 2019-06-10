@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jenkins 이용하여 Docker Image 만들기"
-categories: cicd docker
+categories: devops docker
 tags: cicd docker jenkins devops
 ---
 

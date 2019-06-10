@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jenkins 사용하기"
-categories: cicd
+categories: devops
 tags: cicd jenkins
 ---
 Jenkins는 CI/CD 툴이며 홈페이지는 https://jenkins.io 이다.

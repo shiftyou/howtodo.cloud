@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-title: cicd
-category: cicd
+title: devops
+category: devops
 robots: noindex
 ---
