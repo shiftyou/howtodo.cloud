@@ -4,10 +4,6 @@ title:  "Docker 에서 Oracle Coherence 실행하기"
 categories: docker
 tags: docker coherence
 ---
-Reference
-- https://hub.docker.com/_/oracle-coherence-12c
-- https://github.com/oracle/docker-images/tree/master/OracleCoherence
-
 
 # Docker 에서 Oracle Coherence 실행하기
 
@@ -39,3 +35,6 @@ docker run -d -e COH_WKA=foo.oracle.com store/oracle/coherence:12.2.1.3
 
 (작성 중..)
 
+Reference
+- https://hub.docker.com/_/oracle-coherence-12c
+- https://github.com/oracle/docker-images/tree/master/OracleCoherence
