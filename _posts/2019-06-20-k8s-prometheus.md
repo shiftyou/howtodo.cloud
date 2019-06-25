@@ -244,74 +244,74 @@ OKE에서 Cluster를 구성하면 자동으로 Helm의 서버쪽 모듈인 tille
 
 1. Grafana 설치
 
-Prometheus로 모니터링 할 수 있는 정보를 가져올 수 있다면 이를 시각화 할 필요가 있다. 기본적으로 graph 를 지원하나 만족감(?)을 느낄 수가 없고 이에 Grafana를 설치한다.
+    Prometheus로 모니터링 할 수 있는 정보를 가져올 수 있다면 이를 시각화 할 필요가 있다. 기본적으로 graph 를 지원하나 만족감(?)을 느낄 수가 없고 이에 Grafana를 설치한다.
 
-~~~
-$ helm install stable/grafana
+    ~~~
+    $ helm install stable/grafana
 
-NAME:   trendsetting-clam
-LAST DEPLOYED: Fri Jun 21 16:07:40 2019
-NAMESPACE: default
-STATUS: DEPLOYED
+    NAME:   trendsetting-clam
+    LAST DEPLOYED: Fri Jun 21 16:07:40 2019
+    NAMESPACE: default
+    STATUS: DEPLOYED
 
-RESOURCES:
-==> v1/ClusterRole
-NAME                                   AGE
-trendsetting-clam-grafana-clusterrole  4s
+    RESOURCES:
+    ==> v1/ClusterRole
+    NAME                                   AGE
+    trendsetting-clam-grafana-clusterrole  4s
 
-(중략)
+    (중략)
 
-NOTES:
-1. Get your 'admin' user password by running:
+    NOTES:
+    1. Get your 'admin' user password by running:
 
-   kubectl get secret --namespace default trendsetting-clam-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
+    kubectl get secret --namespace default trendsetting-clam-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
 
-2. The Grafana server can be accessed via port 80 on the following DNS name from within your cluster:
+    2. The Grafana server can be accessed via port 80 on the following DNS name from within your cluster:
 
-   trendsetting-clam-grafana.default.svc.cluster.local
+    trendsetting-clam-grafana.default.svc.cluster.local
 
-   Get the Grafana URL to visit by running these commands in the same shell:
+    Get the Grafana URL to visit by running these commands in the same shell:
 
-     export POD_NAME=$(kubectl get pods --namespace default -l "app=grafana,release=trendsetting-clam" -o jsonpath="{.items[0].metadata.name}")
-     kubectl --namespace default port-forward $POD_NAME 3000
+        export POD_NAME=$(kubectl get pods --namespace default -l "app=grafana,release=trendsetting-clam" -o jsonpath="{.items[0].metadata.name}")
+        kubectl --namespace default port-forward $POD_NAME 3000
 
-3. Login with the password from step 1 and the username: admin
-#################################################################################
-######   WARNING: Persistence is disabled!!! You will lose your data when   #####
-######            the Grafana pod is terminated.                            #####
-#################################################################################
-~~~
-위와 같이 Grafana가 설치되었다.
+    3. Login with the password from step 1 and the username: admin
+    #################################################################################
+    ######   WARNING: Persistence is disabled!!! You will lose your data when   #####
+    ######            the Grafana pod is terminated.                            #####
+    #################################################################################
+    ~~~
+    위와 같이 Grafana가 설치되었다.
 
 
-1, Grafana 접속
+1. Grafana 접속
 
-로그에 나와있는 항목을 수행하여 Grafana에 접속을 해 본다.
+    로그에 나와있는 항목을 수행하여 Grafana에 접속을 해 본다.
 
-먼저 패스워드를 알아낸다.
-~~~
-$ kubectl get secret --namespace default trendsetting-clam-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; 
+    먼저 패스워드를 알아낸다.
+    ~~~
+    $ kubectl get secret --namespace default trendsetting-clam-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; 
 
-bgdIt0mCiVvlmOdpQlgFP4nGeWf0DK9KWM5xLxhu
-~~~
+    bgdIt0mCiVvlmOdpQlgFP4nGeWf0DK9KWM5xLxhu
+    ~~~
 
-그 다음 해당 서비스의 포트를 포워딩 한다.
-~~~
-$ export POD_NAME=$(kubectl get pods --namespace default -l "app=grafana,release=trendsetting-clam" -o jsonpath="{.items[0].metadata.name}")
+    그 다음 해당 서비스의 포트를 포워딩 한다.
+    ~~~
+    $ export POD_NAME=$(kubectl get pods --namespace default -l "app=grafana,release=trendsetting-clam" -o jsonpath="{.items[0].metadata.name}")
 
-$ kubectl --namespace default port-forward $POD_NAME 3000
+    $ kubectl --namespace default port-forward $POD_NAME 3000
 
-Forwarding from 127.0.0.1:3000 -> 3000
-Forwarding from [::1]:3000 -> 3000
-~~~
+    Forwarding from 127.0.0.1:3000 -> 3000
+    Forwarding from [::1]:3000 -> 3000
+    ~~~
 
-그리고 localhost:3000 으로 접속을 한다.
+    그리고 localhost:3000 으로 접속을 한다.
 
-![Alt text](https://monosnap.com/image/Iu88YcIwEnppsSmLtFKnnm6Gk50Opm)
+    ![Alt text](https://monosnap.com/image/Iu88YcIwEnppsSmLtFKnnm6Gk50Opm)
 
-로그인을 한다.
-- username : admin
-- password : 위에서 구한 패스워드 (bgdIt0mCiVvlmOdpQlgFP4nGeWf0DK9KWM5xLxhu)
+    로그인을 한다.
+    - username : admin
+    - password : 위에서 구한 패스워드 (bgdIt0mCiVvlmOdpQlgFP4nGeWf0DK9KWM5xLxhu)
 
 
 자세한 Grafana 사용법은 다음에..
