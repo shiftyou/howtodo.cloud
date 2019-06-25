@@ -5,7 +5,7 @@ categories: devops docker
 tags: cicd docker jenkins devops
 ---
 
-# Jenkins에서 Docker 이용
+Jenkins를 이용하여 개발된 애플리케이션을 Docker Image를 만들고 Registry에 올리는 과정을 설명한다.
 
 # 애플리케이션 개발
 

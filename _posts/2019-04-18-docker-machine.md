@@ -5,7 +5,6 @@ categories: docker
 tags: docker-machine coherence
 ---
 
-# Docker Machine에 대하여
 
 docker-machine 은 가상호스트나 관리되는 호스트 서버에 Docker Engine을 설치하고 관리하는 툴이다.  
 docker-machine 명령어를 통하여 호스트를 시작,검사,중지 및 재시작하고 Docker 클라이언트과 데몬을 업그레이드 하고 호스트와 통신하도록 Docker 클라이언트를 구성할 수 있다.

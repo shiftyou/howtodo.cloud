@@ -4,7 +4,6 @@ title:  "GIT 변경사항 되돌리기"
 categories: git
 tags: git diff
 ---
-# git 수정전으로 되돌리기
 
 - repository 안의 모든 내용 수정 되될리기
     ~~~

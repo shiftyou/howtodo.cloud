@@ -4,7 +4,6 @@ title:  "Kubernetes 사용하기"
 categories: kubernetes
 tags: kubernetes
 ---
-# Kubernetes Cluster
 
 쿠버네티스 클러스터를 구성하기 위하여 VM에 있는 minikube를 사용하도록 한다.
 

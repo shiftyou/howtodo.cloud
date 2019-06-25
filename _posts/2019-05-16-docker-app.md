@@ -4,6 +4,10 @@ title:  "도커기반 애플리케이션 작성"
 categories: docker git kubernetes
 tags: docker git kubernetes
 ---
+
+Docker 기반의 애플리케이션을 작성하는 방법을 설명한다.
+
+
 # 애플리케이션 작성
 
 Node.JS로 만들어진 사용자를 관리하는 애플리케이션을 작성해 보도록 합니다. 이 애플리케이션은 MySQL에 새로운 유저와 테이블을 사용합니다.

@@ -5,7 +5,6 @@ categories: kubernetes
 tags: kubernetes minikube virtualbox
 ---
 
-# VirtualBox 에서 minikube 실행하기
 
 윈도우, 리눅스, 맥에서 원래 minikube는 Virtualbox를 사용한다.  
 Host OS에서 VirtualBox를 설치하고 vm으로 minikube를 사용하는 것이다.  

@@ -5,8 +5,6 @@ categories: java
 tags: java sync async
 ---
 
-# Async 로 호출하여 Sync 로 응답받기
-
 기존에 몇가지 조건 때문에 aysnc 호출을 sync 처럼 응답받아야만 하는 경우가 있었다.  
 이에 대해서 어떻게 구현하면 되는지 기존에 만들었던 Oracle Chatbot에서 kakao talk 연동하는 모듈로 기록을 남겨본다.
 

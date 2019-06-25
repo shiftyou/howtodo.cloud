@@ -4,7 +4,6 @@ title:  Prometheus
 categories: kubernetes
 tags: kubernetes promethus monitoring
 ---
-# Prometheus 란
 
 오픈소스 시스템 모니터링이다.   
 CNCF에 Kubernetes 이후 두번째로 등록된 프로젝트로써 Kubernetes의 모니터링 용도로 많이 이용되며 다음의 특징을 가진다.

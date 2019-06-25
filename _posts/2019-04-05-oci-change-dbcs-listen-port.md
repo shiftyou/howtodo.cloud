@@ -4,7 +4,8 @@ title:  "DBCS 리슨포트 변경 및 JCS 프로비저닝 하기"
 categories: oci
 tags: dbcs jcs
 ---
-# DBCS 리슨포트 변경 및 JCS 프로비저닝
+
+Oracle Database Cloud Service 를 통해서 데이터베이스를 만들고 난 후, 해당 Listen Port 를 변경하여 프로비저닝 하고자 할 경우 방법을 설명한다.
 
 # DBCS 프로비저닝
 

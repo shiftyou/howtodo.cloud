@@ -5,7 +5,6 @@ categories: kubernetes
 tags: kubectl delete
 ---
 
-# 모든 리소스 삭제
 
 모든 리소스를 삭제하려면 다음과 같이 명령한다.
 ~~~

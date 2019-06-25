@@ -4,7 +4,9 @@ title:  "OCI의 File Storage를 Compute Instance에 연결하기"
 categories: oci
 tags: storage
 ---
-# OCI의 File Storage를 Instance에 연결하는 방법
+
+Oracle Infrastructure Cloud 의 File Storage를 사용하는 방법을 설명한다.
+
 
 1. OCI의 File Storage 를 클릭합니다.
 
