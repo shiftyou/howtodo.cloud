@@ -59,6 +59,8 @@ sudo -E minikube start --vm-driver=none
 kubectl cluster-info
 ~~~
 
+---
+
 Reference
 - https://medium.com/@vovaprivalov/setup-minikube-on-virtualbox-7cba363ca3bc
 
