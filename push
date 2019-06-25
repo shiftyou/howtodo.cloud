@@ -1,2 +1,6 @@
 python tag-generator.py
 python category-generator.py
+
+git add .
+git commit -m update
+git push
