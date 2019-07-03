@@ -4,8 +4,3 @@
   image: docker-logo.png
   tags: docker, kubernetes
 
-- name: none
-  slug: none-project
-  desc: 아무것도 없습니다.
-  image: docker-logo.png
-  tags: none
