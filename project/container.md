@@ -11,7 +11,7 @@ picture: /images/animails/zebra.jpg
 
 ## 자료파일
 
-- [설명자료](./container/container.pdf)
+- [설명자료](https://jonggyoukim.github.io/container/container.pdf)
 
 ## 핸즈온 파일
 
