@@ -283,11 +283,9 @@ OKE에서 Cluster를 구성하면 자동으로 Helm의 서버쪽 모듈인 tille
     ~~~
     위와 같이 Grafana가 설치되었다.
 
-
 1. Grafana 접속
 
-    로그에 나와있는 항목을 수행하여 Grafana에 접속을 해 본다.
-
+    로그에 나와있는 항목을 수행하여 Grafana에 접속을 해 본다.  
     먼저 패스워드를 알아낸다.
     ~~~
     $ kubectl get secret --namespace default trendsetting-clam-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; 
