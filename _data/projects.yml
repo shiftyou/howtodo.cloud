@@ -1,6 +1,6 @@
 - name: container
-  slug: container
-  desc: 컨테이너를 알아봅시다.
+  slug: Container Hands-On
+  desc: 컨테이너를 알기위해 따라해봅시다.
   image: docker-logo.png
   tags: docker, kubernetes
 

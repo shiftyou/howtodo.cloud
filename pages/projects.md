@@ -4,7 +4,7 @@ title: Project List
 permalink: /projects/
 ---
 
-projects
+Project List
 <ul>
   {% for project in site.data.projects %}
     <li>
