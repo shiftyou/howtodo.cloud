@@ -2,7 +2,7 @@
 layout: post
 title:  마이크로서비스에서의 트랜잭션
 categories: microservice
-tags: msa microservice transaction 트랜잭션 마이크로서비스 SAGA
+tags: msa microservice transaction 트랜잭션 마이크로서비스 saga
 ---
 
 
