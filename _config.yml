@@ -15,9 +15,9 @@ enableTags: true
 tagarray: []
 
 collections:
-  project:
+  projects:
     output: true
-    permalink: /project/:path/
+    permalink: /project/:name
 
 #social:
 #    - icon: fa-facebook
