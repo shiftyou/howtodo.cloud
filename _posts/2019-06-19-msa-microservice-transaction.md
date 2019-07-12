@@ -5,7 +5,10 @@ categories: microservice
 tags: msa microservice transaction 트랜잭션 마이크로서비스 saga
 ---
 
-수정중..
+
+**수정중**
+
+
 
 마이크로서비스는 각 서비스가 자신만의 데이터를 가지고 있다. 게다가 데이터는 API로만 관리될 수 있고 숨겨져 있다.
 기존 애플리케이션은 데이터를 사용하고 데이터는 트랜잭션을 가지게 된다.  
