@@ -1,5 +1,5 @@
 - name: container
-  slug: Container Hands-On
+  slug: Oracle Cloud Infrastructure(OCI)를 사용한 Container Hands-On
   desc: 컨테이너를 알기위해 따라해봅시다.
   image: docker-logo.png
   tags: docker, kubernetes
