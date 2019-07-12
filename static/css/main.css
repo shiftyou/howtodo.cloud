@@ -100,6 +100,9 @@ div.content pre {
   font-size: 12px;
   border: none;
 }
+.highlight {
+	background: #333333;
+}
 div.content .highlight {
 	background: #333333;
 }
