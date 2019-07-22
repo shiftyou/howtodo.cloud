@@ -233,9 +233,9 @@ $ curl  http://129.213.74.19
 
 SSL 때문에 위와 같은 메시지가 나온다. 그래서 curl에서 옵션을 준다.
 
--i 옵션 : Include protocol headers in the output (H/F)
--k 옵션 : not verify the SSL certificates.
--L 옵션 : automatically folow the location header
+- i 옵션 : Include protocol headers in the output (H/F)  
+- k 옵션 : not verify the SSL certificates.  
+- L 옵션 : automatically folow the location header  
 
 ~~~
 $ curl -ikL http://129.213.74.19
