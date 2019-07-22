@@ -300,7 +300,7 @@ kubectl get pods --all-namespaces -l app.kubernetes.io/name=ingress-nginx --watc
 
 
 
-# 참고
+# 추가
 
 배포된 ingress-nginx를 사용하기 위해서 환경별로 필요한 항목이 있다.
 - minikube
