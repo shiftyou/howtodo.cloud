@@ -46,7 +46,7 @@ Ingress 로 환경을 설정하고 실제로 일은 Ingress Controller가 수행
 
 아래의 순서대로 수행을 하면 다음과 같은 아키텍처가 된다.
 
-![Alt text](https://monosnap.com/image/xqkfU47kpgqfQ8JIOsF1cYCJBM6ucF)
+![Alt text](https://monosnap.com/image/xFtvixGTPgLdEJuvBhneAElyOYvBg6)
 
 
 
