@@ -190,7 +190,6 @@ service "myapp-svc" created
 
 해당 서비스는 ClusterIP 로 서비스 되고 있다.
 
-
 ~~~
 apiVersion: extensions/v1beta1
 kind: Ingress
@@ -210,13 +209,19 @@ spec:
 
 ~~~
 
+8088포트로 서비스 되고 있는 myapp-svc 를 호출하는 백엔드를 가지는 myapp-ing 라는 이름의 Ingress 서비스를 생성한다.
+
 ~~~
-kubectl create -f myapp-ingress.yaml
+@ kubectl create -f myapp-ingress.yaml
+
 ingress.extensions "myapp-ing" created
 ~~~
 
+이전에 ingress-nginx 를 노출시키고 난 EXTERNAL-IP인 129.213.74.19를 통해서 호출해 본다.
+
 ~~~
-curl  http://129.213.74.19
+$ curl  http://129.213.74.19
+
 <html>
 <head><title>308 Permanent Redirect</title></head>
 <body>
@@ -225,68 +230,16 @@ curl  http://129.213.74.19
 </body>
 </html>
 ~~~
--k option : not verify the SSL certificates.
-~~~
-curl -k https://129.213.74.19
-<!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to nginx!</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
-</head>
-<body>
-<h1>Welcome to nginx!</h1>
-<p>If you see this page, the nginx web server is successfully installed and
-working. Further configuration is required.</p>
 
-<p>For online documentation and support please refer to
-<a href="http://nginx.org/">nginx.org</a>.<br/>
-Commercial support is available at
-<a href="http://nginx.com/">nginx.com</a>.</p>
+SSL 때문에 위와 같은 메시지가 나온다. 그래서 curl에서 옵션을 준다.
 
-<p><em>Thank you for using nginx.</em></p>
-</body>
-</html>
-~~~
-
--L option : automatically folow the location header
-~~~
-curl -kL  http://129.213.74.19
-<!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to nginx!</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
-</head>
-<body>
-<h1>Welcome to nginx!</h1>
-<p>If you see this page, the nginx web server is successfully installed and
-working. Further configuration is required.</p>
-
-<p>For online documentation and support please refer to
-<a href="http://nginx.org/">nginx.org</a>.<br/>
-Commercial support is available at
-<a href="http://nginx.com/">nginx.com</a>.</p>
-
-<p><em>Thank you for using nginx.</em></p>
-</body>
-</html>
-~~~
+-i 옵션 : Include protocol headers in the output (H/F)
+-k 옵션 : not verify the SSL certificates.
+-L 옵션 : automatically folow the location header
 
 ~~~
-curl -ikL http://129.213.74.19
+$ curl -ikL http://129.213.74.19
+
 HTTP/1.1 308 Permanent Redirect
 Via: 1.1 10.188.53.7 (McAfee Web Gateway 7.8.2.7.0.28225)
 Date: Fri, 19 Jul 2019 07:33:20 GMT
@@ -333,6 +286,8 @@ Commercial support is available at
 </body>
 </html>
 ~~~
+
+웹브라우저로 접속하면 다음과 같이 나온다.
 
 ![Alt text](https://monosnap.com/image/TJcCudFAgq5RcMnX5Y3uEJdL1Q1Cd0)
 
