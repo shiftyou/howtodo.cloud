@@ -1,5 +1,9 @@
-#ingress 로 서비스 하기
-
+---
+layout: post
+title:  "쿠버네티스의 Ingress"
+categories: kubernetes
+tags: kubernetes ingress
+---
 
 
 # Ingress 란
