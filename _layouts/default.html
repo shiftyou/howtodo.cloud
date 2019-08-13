@@ -191,9 +191,9 @@ layout: compress
   <a href="/tag/{{ tag[0] | slugify }}" class="btn btn-default" style="border: none; font-size: {{ tag | last | size  |  times: 10 | plus: 50  }}%">
     <span aria-hidden="true"> 
       {{ tag[0] }}
-      <!--
+
       {{ tag[0] }} <i class="badge">{{ tag | last | size }}</i>
-      -->
+
     </span>
   </a>
   {% endfor %}
