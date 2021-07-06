@@ -17,7 +17,7 @@ tagarray: []
 collections:
   projects:
     output: true
-    permalink: /project/:name
+    permalink: /projects/:name
 
 #social:
 #    - icon: fa-facebook
