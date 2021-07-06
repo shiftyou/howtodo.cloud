@@ -43,8 +43,8 @@ urls:
 
 url: "https://www.howtodo.cloud"
 baseurl: ""
-paginate: 23
-per_page: 23
+paginate: 25
+per_page: 25
 paginate_path: "/page/:num/"
 markdown: kramdown
 plugins:
