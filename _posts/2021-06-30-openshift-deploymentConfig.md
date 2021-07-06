@@ -71,5 +71,5 @@ spec:
 
 
 ---
-#### References
+References
 - https://docs.openshift.com/container-platform/4.7/applications/deployments/what-deployments-are.html
