@@ -1,3 +1,6 @@
 [submodule "project/container"]
 	path = project/container
 	url = https://github.com/jonggyoukim/container.git
+[submodule "projects/openshift-cicd"]
+	path = projects/openshift-cicd
+	url = https://github.com/jonggyoukim/openshift-cicd.git

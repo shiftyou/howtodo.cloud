@@ -1,0 +1,6 @@
+- name: openshift-cicd
+  slug: OpenShift CI/CD
+  desc: OpenShift에서 CI/CD를 테스트 해 봅시다.
+  image: openshift.png
+  tags: openshift ci cd pipeline cicd
+
