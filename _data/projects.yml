@@ -4,3 +4,8 @@
   image: docker-logo.png
   tags: docker, kubernetes
 
+- name: container2
+  slug: OCI를 사용한 Container Hands-On2
+  desc: 컨테이너를 알기위해 따라해봅시다.2
+  image: docker-logo.png
+  tags: docker, kubernetes
