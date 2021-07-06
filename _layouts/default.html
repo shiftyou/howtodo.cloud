@@ -122,6 +122,7 @@ layout: compress
           Powered by <a href="https://jekyllrb.com/">Jekyll</a>, 
           themed from <a href="https://github.com/agusmakmun/agusmakmun.github.io">Agus Makmun</a>.
 
+
 <!--
           {% if site.github %}
             - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Jekyll.
@@ -131,6 +132,7 @@ layout: compress
             <iframe src="https://ghbtns.com/github-btn.html?user=agusmakmun&repo=agusmakmun.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
           </div>
 -->
+
         </footer>
       </div>
       <!-- end /.col-sm-8 -->
@@ -179,14 +181,15 @@ layout: compress
           {% endfor %}
           </ul>
 
-
-<hr />
-
 <!-- TAG
 -->
 
+<hr />
 <strong>Tags</strong>
+<!--
 <div class="blog-tags"> 
+-->
+<ul class="sidebar-nav">
   {% assign tags = site.tags | sort %}
   {% for tag in tags %}
   <a href="/tag/{{ tag[0] | slugify }}" class="btn btn-default" style="border: none; font-size: {{ tag | last | size  |  times: 10 | plus: 50  }}%">
@@ -198,7 +201,10 @@ layout: compress
     </span>
   </a>
   {% endfor %}
+</ul>
+<!--
 </div>
+-->
 
 
 
