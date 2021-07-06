@@ -1,5 +1,8 @@
-python tag-generator.py
-python category-generator.py
+\rm -rf tag
+\rm -rf category
+
+python py_script/tag-generator.py
+python py_script/category-generator.py
 
 git add .
 git commit -m update
