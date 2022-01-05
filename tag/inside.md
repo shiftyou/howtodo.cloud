@@ -1,6 +1,6 @@
 ---
 layout: posts_by_tag
-title: pipeline,
-tag: pipeline,
+title: inside
+tag: inside
 robots: noindex
 ---

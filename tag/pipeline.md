@@ -1,6 +1,6 @@
 ---
 layout: posts_by_tag
-title: openshift,
-tag: openshift,
+title: pipeline
+tag: pipeline
 robots: noindex
 ---

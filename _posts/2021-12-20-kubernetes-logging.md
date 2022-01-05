@@ -3,7 +3,7 @@ layout: post
 title: "Kubernetes Logging"
 date: 2021-12-30
 categories: openshift
-tags: openshift, logging
+tags: openshift logging
 image: Broadcast_Mail.png
 ---
 # Kubernetes Logging
