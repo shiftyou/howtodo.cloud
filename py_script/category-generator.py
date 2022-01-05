@@ -27,7 +27,7 @@ for filename in filenames:
             current_categories = line.strip().split()
             if current_categories[0] == 'categories:':
                 total_categories.extend(current_categories[1:])
-                print("Category :" + current_categories[1:])
+                print(current_categories[1:])
                 crawl = False
                 break
         if line.strip() == '---':
