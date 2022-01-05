@@ -1,3 +1,11 @@
+---
+layout: post
+title: "CRI-O를 사용하는 Pods의 log rotation 설정"
+date: 2021-12-30
+categories: openshift
+tags: openshift, logging
+image: Broadcast_Mail.png
+---
 CRI-O의 log rotation을 수정하기
 
 # Issue

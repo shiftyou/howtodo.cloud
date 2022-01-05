@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Kubernetes Logging"
+date: 2021-12-30
+categories: openshift
+tags: openshift, logging
+image: Broadcast_Mail.png
+---
 # Kubernetes Logging
 
 애플리케이션이 어떻게 동작하고 있는지를 쉽게 알 수 있는 방법은 로그이다. 일반적으로 로그는 stdout으로 남기거나 파일로 남기며 오류시에는 stderr로 남긴다. 로그를 애플리케이션이 동작하는 서버에 파일로 남겨서 관리자가 볼 수 있지만, 쿠버네티스 환경에서는 애플리케이션이 컨테이너로 동작하기 때문에 컨테이너 안에서 남긴 로그 파일은 컨테이너가 사라지면 같이 사라진다.
