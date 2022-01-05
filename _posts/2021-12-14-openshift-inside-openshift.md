@@ -3,7 +3,7 @@ layout: post
 title: "Inside OpenShift"
 date: 2021-12-14
 categories: openshift
-tags: openshift inside architecture
+tags: openshift architecture
 image: Broadcast_Mail.png
 ---
 
