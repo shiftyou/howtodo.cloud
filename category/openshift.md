@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-title: inside
-category: inside
+title: openshift
+category: openshift
 robots: noindex
 ---
