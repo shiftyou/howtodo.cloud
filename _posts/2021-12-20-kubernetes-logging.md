@@ -45,19 +45,6 @@ kubectl logs {pod명}
 
 ![](https://d33wubrfki0l68.cloudfront.net/5bde4953b3b232c97a744496aa92e3bbfadda9ce/39767/images/docs/user-guide/logging/logging-with-streaming-sidecar.png)
 
-
-# CRI-O 로그 검사
-CRI-O 컨테이너 엔진은 systemd service로 구현이 되어 있다 따라서 `journalctl` 명령어를 사용하여 CRI-O를 위한 로그 메시지를 살펴볼 수 있다.
-cri-o의 메시지는 해당 pod에 접속한 후에 ....
-
-
-
-
-
-
-
-
-
 ----
 Reference : *https://kubernetes.io/docs/concepts/cluster-administration/logging/*	
 
