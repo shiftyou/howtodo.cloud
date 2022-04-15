@@ -168,6 +168,14 @@ layout: compress
               <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
             {% endfor %}
           </ul>
+          <hr />
+
+          <strong>Sites</strong>
+          <ul class="sidebar-nav">
+            {% for i in site.sites %}
+              <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
+            {% endfor %}
+          </ul>
 
           <hr />
           <strong>Categories</strong>
