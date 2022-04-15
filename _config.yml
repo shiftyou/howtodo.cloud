@@ -40,8 +40,6 @@ urls:
       url: /about/
     - text: Projects
       url: /projects/
-    - text: OpenShift
-      url: http://openshift.howtodo.cloud
 
 sites:
     - text: OpenShift
