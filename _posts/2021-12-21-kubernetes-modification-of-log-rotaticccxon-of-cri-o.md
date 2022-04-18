@@ -2,7 +2,7 @@
 layout: post
 title: "CRI-O를 사용하는 Pods의 log rotation 설정"
 date: 2021-12-30
-categories: openshift
+categories: kubernetes
 tags: openshift logging
 image: Broadcast_Mail.png
 ---
