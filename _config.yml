@@ -38,8 +38,8 @@ collections:
 urls:
     - text: About
       url: /about/
-    - text: Projects
-      url: /projects/
+#    - text: Projects
+#      url: /projects/
 
 sites:
     - text: OpenShift
