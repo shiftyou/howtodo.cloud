@@ -78,6 +78,7 @@ a:hover {
 /* Layout */
 .main-layout {
   background: #fff;
+  width: 70%;
 }
 .sidebar-nav {
   margin: 0;
@@ -127,6 +128,7 @@ div.col-sm-3 {
   margin-top: 10px;
   font-size: 13px;
   color: #666;
+  width: 235px;
 }
 div.col-sm-3 strong {
   font-size: 16px;
@@ -212,14 +214,14 @@ div.col-sm-3 img.profile-avatar {
   }
 }
 @media (min-width: 1024px) {
-  .fixed-condition {
 /*
+  .fixed-condition {
     position: fixed;
-*/
     max-width: 255px;
   }
+*/
   .container {
-    margin-left: 5%;
+    margin-left: 7%;
   }
 }
 @media (max-width: 768px) {
