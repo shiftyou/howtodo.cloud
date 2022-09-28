@@ -202,6 +202,21 @@ div.col-sm-3 img.profile-avatar {
 }
 
 /* Responsive Conditional */
+@media all and (min-width: 1600px) and (max-width: 1920px) {
+  .container {
+    width: 1600px;
+  }
+}
+@media all and (min-width: 1366px) and (max-width: 1600px) {
+  .container {
+    width: 1366px;
+  }
+}
+@media all and (min-width: 1204px) and (max-width: 1366px) {
+  .container {
+    width: 1204px;
+  }
+}
 @media (min-width: 1024px) {
   .fixed-condition {
 /*
@@ -210,7 +225,7 @@ div.col-sm-3 img.profile-avatar {
     max-width: 255px;
   }
   .container {
-    margin-left: 7%;
+    margin-left: 10%;
   }
 }
 @media (max-width: 768px) {
