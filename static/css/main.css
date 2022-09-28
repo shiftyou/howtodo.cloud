@@ -203,44 +203,14 @@ div.col-sm-3 img.profile-avatar {
 
 /* Responsive Conditional */
 @media (min-width: 1024px) {
-/*
   .fixed-condition {
+/*
     position: fixed;
+*/
     max-width: 255px;
   }
-*/
   .container {
     margin-left: 7%;
-  }
-}
-@media (min-width: 1125px) {
-  .container {
-    width: 1105px;
-  }
-}
-@media (min-width: 1170px) {
-  .container {
-    width: 1150px;
-  }
-}
-@media (min-width: 1280px) {
-  .container {
-    width: 1260px;
-  }
-}
-@media (min-width: 1284px) {
-  .container {
-    width: 1264px;
-  }
-}
-@media (min-width: 1440px) {
-  .container {
-    width: 1420px;
-  }
-}
-@media (min-width: 1600px) {
-  .container {
-    width: 1580px;
   }
 }
 @media (max-width: 768px) {
