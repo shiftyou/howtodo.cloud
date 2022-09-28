@@ -213,6 +213,26 @@ div.col-sm-3 img.profile-avatar {
     width: 1420px;
   }
 }
+@media (min-width: 1284px) {
+  .container {
+    width: 1264px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    width: 1260px;
+  }
+}
+@media (min-width: 1170px) {
+  .container {
+    width: 1150px;
+  }
+}
+@media (min-width: 1125px) {
+  .container {
+    width: 1105px;
+  }
+}
 @media (min-width: 1024px) {
 /*
   .fixed-condition {
