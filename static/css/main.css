@@ -202,7 +202,7 @@ div.col-sm-3 img.profile-avatar {
 }
 
 /* Responsive Conditional */
-@media all and (min-width: 1600px) and (max-width: 1920px) {
+@media all and (min-width: 1600px) {
   .container {
     width: 1400px;
   }
