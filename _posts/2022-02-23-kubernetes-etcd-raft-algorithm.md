@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "etcd raft 알고리즘"
-date: 2022-07-23
+date: 2022-08-23
 categories: kubernetes
 tags: openshift kubernetes etcd
 image: Broadcast_Mail.png

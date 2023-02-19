@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "etcd leaner 디자인"
-date: 2022-09-24
+date: 2022-11-24
 categories: kubernetes
 tags: openshift kubernetes etcd
 image: Broadcast_Mail.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "etcd client 디자인"
-date: 2022-08-25
+date: 2022-10-25
 categories: kubernetes
 tags: openshift kubernetes etcd
 image: Broadcast_Mail.png
